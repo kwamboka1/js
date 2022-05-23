@@ -2,21 +2,25 @@
 // javascript
 
 //initialization
-let count = 0;
+let count = 0
 
-let countEl = document.getElementById("increment-btn");
-let counter = document.getElementById("count-el");
-let saveEL = document.getElementById("save-el");
+let countEl = document.getElementById("count-el")
+let counter = document.getElementById("reset")
+let saveEL = document.getElementById("save-el")
 
 function increment() {
   //increment the count  variable when the button is clicked
-  count++;
+  count +=1
   //change the count-el in the HTML to reflect the new count
-  counter.innerText = count;
+  countEl.innerText = count
 }
 
 function save() {
-  let countstr = counter + " - ";
-  saveEL.textContent += countstr;
-  console.log(count);
+  let myCount = countEl.innerText + " - " //a variable that contains both the count and the dash separator
+  saveEL.textContent += myCount;
+  console.log(count)
+
+  countEl.textContent = 0
+  count = 0
 }
+
