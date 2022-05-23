@@ -12,9 +12,9 @@ span {
 
 button {
     margin: 20px 0;
-    background: white;
+    background: pink;
     color: black;
-    border: 1px solid black;
+    border: 1px solid purple;
     font-weight: bold;
     cursor: pointer;
     padding: 5px 8px;
