@@ -1,0 +1,103 @@
+#main{
+position: absolute;
+width: 550px;
+height: 550px;
+align-content: center;
+left: 189px;
+top: 100px;
+
+background: #1F2937;
+}
+#top{
+position: absolute;
+width: 550px;
+height: 260px;
+left: 0px;
+top: 0px;
+background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+#top p{
+position: absolute;
+width: 448.4px;
+height: 38px;
+left: 51px;
+top: 53px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 38px;
+/* identical to box height, or 173% */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+#top p.count{
+position: absolute;
+width: 211px;
+height: 51.23px;
+left: 169px;
+top: 80px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 97.5723px;
+line-height: 24px;
+/* or 25% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+#main p{
+position: absolute;
+width: 346px;
+height: 25px;
+left: 102px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#main p#length{
+top: 297px;
+}
+
+#main p#volume{
+top: 379px;
+}
+
+#main p#mass{
+top: 461px;
+}
+#main p#length span{
+position: absolute;
+width: 346px;
+height: 25px;
+left: 102px;
+top: 327px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+
+color: #D2D2D2;
+}
