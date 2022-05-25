@@ -1,4 +1,4 @@
-// button event listeners
+// button(s) event listeners
 document.getElementById("to-metric-btn").addEventListener('click',() => {
     userInput("to-metric-btn");
 });
@@ -14,6 +14,7 @@ function userInput(btn) {
 
     let toImpNo = document.getElementById("to-imp-no").value;
     const defaultImp = document.getElementById("default-imp");
+    
 
     if(btn === "to-metric-btn") { 
         //pass input number to function
@@ -32,7 +33,7 @@ function userInput(btn) {
 }
 
 function displayToMetric(number) {
-    //variables for formulas
+    //variables for formulae
     const massNum = number / 2.205;
     const volNum = number * 3.785;
     const lengthNum = number / 3.281;
@@ -51,7 +52,7 @@ function displayToImp(number) {
     const massNum = number * 2.205;
     const volNum = number / 3.785;
     const lengthNum = number * 3.281;
-    document.getElementById('impResults').innerHTML = `
+    document.getElementById('imp-results').innerHTML = `
         <h3>Mass</h3>
         <p>${number} kilos = ${massNum.toFixed(2)} pounds</p>
         <h3>Volume</h3>
